@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Doni Ahmad</title>
+
+    <style>
+        body {
+          font-family: 'Poppins', serif;
+        }
+        .background-cover {
+            background: rgb(213,105,55);
+            background: linear-gradient(90deg, rgba(213,105,55,1) 0%, rgba(36,65,180,1) 100%);
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="bg-gray-200">
+    <!-- Section Cover -->
+    <section class="flex flex-wrap justify-center w-full h-auto p-8 background-cover">
+        <div class="w-full sm:w-1/2">
+            <img class="rounded-full shadow-xl w-40 h-40 md:float-right mt-4 mx-5" src="image/doni-ahmad.jpg"></img>
+        </div>
+        <div class="w-full sm:w-1/2 md:text-left">
+            <div class="my-2 mx-5">
+                <div class="text-white text-4xl font-bold">Doni Ahmad</div>
+                <div class="text-white text-base font-medium">+62 831 5302 7407</div>
+                <div class="text-white text-base font-medium">donyahmd24@gmail.com</div>
+            </div>
+            <div class="mt-5 mx-5">
+                <div class="text-white text-sm font-normal">Samarinda, East Kalimantan, Indonesia</div>
+                <div class="text-white text-sm font-normal">November 1996</div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Cover -->
 </body>
+
 </html>
